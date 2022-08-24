@@ -58,3 +58,4 @@ https://api.ropro.io/itemInfo.php?ids={items)
 https://api.ropro.io/deleteWish.php?wishid={wishid}
 https://api.ropro.io/postWishlist.php
 https://api.ropro.io/getWishlistAll.php?page={page}
+https://ropro.io/globe/?placeid={placeid}
