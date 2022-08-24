@@ -1,13 +1,10 @@
 https://api.ropro.io/
 https://api.ropro.io/disabledFeatures.php
-https://api.ropro.io/getServerCursor.php?startIndex={index}&placeId={gameid}
-https://api.ropro.io/getServerInfo.php
-https://api.ropro.io/getServerConnectionScore.php
-https://api.ropro.io/getServerAge.php
 https://api.ropro.io/getAssetThumbnail.php?id={assetid}
 https://api.ropro.io/handleRoProAlert.php?timestamp={timestamp}
 https://api.ropro.io/getSubscription.php?key={subscriptionkey}&userid={userid}
-https://api.ropro.io/validateUser.php - OPTIONAL PARAMS: free_trial=true
+https://api.ropro.io/validateUser.php?free_trial=true
+https://api.ropro.io/validateUser.php
 https://api.ropro.io/handlePurchase.php?userid={userid}&assetid={assetid}&uaid={userassestid}&price={price}
 https://api.ropro.io/generateVerificationToken.php
 https://api.ropro.io/verificationMetadata.php
@@ -41,9 +38,20 @@ https://api.ropro.io/itemInfo.php?ids={items)
 https://api.ropro.io/deleteWish.php?wishid={wishid}
 https://api.ropro.io/postWishlist.php
 https://api.ropro.io/getWishlistAll.php?page={page}
+
+GAME ENDPOINTS
+
+https://api.ropro.io/getServerCursor.php?startIndex={index}&placeId={gameid}
 https://ropro.io/globe/?placeid={placeid}
 
+SERVER ENDPOINTS
+
+https://api.ropro.io/getServerInfo.php
+https://api.ropro.io/getServerConnectionScore.php
+https://api.ropro.io/getServerAge.php
+
 PROFILE ENDPOINTS
+
 https://api.ropro.io/postReputation.php
 https://api.ropro.io/saveProfileTheme.php?userid={userid}&themename={themename}
 https://api.ropro.io/profileBackend.php?userid={userid}
