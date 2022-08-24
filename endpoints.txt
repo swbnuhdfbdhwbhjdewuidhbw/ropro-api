@@ -1,15 +1,13 @@
+BASE URL
+
 https://api.ropro.io/
+
+
 https://api.ropro.io/disabledFeatures.php
 https://api.ropro.io/handleRoProAlert.php?timestamp={timestamp}
-https://api.ropro.io/getSubscription.php?key={subscriptionkey}&userid={userid}
-https://api.ropro.io/validateUser.php?free_trial=true
-https://api.ropro.io/validateUser.php
 https://api.ropro.io/generateVerificationToken.php
 https://api.ropro.io/verificationMetadata.php
-https://api.ropro.io/getAvatarEditorBackgrounds.php
 https://api.ropro.io/getUpcomingPage.php?page={page}
-https://api.ropro.io/getComments.php?id={itemid}&page={page}
-https://api.ropro.io/postComment.php
 https://api.ropro.io/getMostPopularToday.php
 https://api.ropro.io/getInvite.php?key={key}
 https://api.ropro.io/createInvite.php?universeid={universeid}&serverid={serverid}
@@ -24,11 +22,18 @@ https://api.ropro.io/itemGraph.php
 https://api.ropro.io/itemInfo.php?ids={items)
 
 
+COMMENT ENDPOINTS
+
+https://api.ropro.io/getComments.php?id={itemid}&page={page}
+https://api.ropro.io/postComment.php
+
 SUBSCRIPTION ENDPOINTS
 
 https://api.ropro.io/freeTrialTime.php
 https://api.ropro.io/getSubscription.php?key={subscriptionkey}&options_page
 https://api.ropro.io/activateKey.php?key={subscriptionkey}
+https://api.ropro.io/validateUser.php?free_trial=true
+https://api.ropro.io/validateUser.php
 
 WISHLIST ENDPOINTS
 
@@ -37,12 +42,13 @@ https://api.ropro.io/postWishlist.php
 https://api.ropro.io/getWishlistAll.php?page={page}
 https://api.ropro.io/getWishlistItem.php?page{page}&item={pageitemid}
 
-SANDBOX ENDPOINTS
+AVATAR THEMES / AVATAR SANDBOX ENDPOINTS
 
 https://api.ropro.io/createOutfit.php?userid={userid}&outfitAssets={assets}&outfitName={outfitname}&outfitThumbnail={thumbnail}
 https://api.ropro.io/updateOutfitThumbnail.php?userid={userid}&outfitAssets={assets}&outfitThumbnail={thumbnail}
 https://api.ropro.io/deleteOutfit.php?userid={userid}&outfitAssets={assets}
 https://api.ropro.io/loadOutfits.php?userid={userid}
+https://api.ropro.io/getAvatarEditorBackgrounds.php
 
 ASSET ENDPOINTS
 
