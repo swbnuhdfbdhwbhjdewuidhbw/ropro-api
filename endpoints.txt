@@ -14,27 +14,35 @@ https://api.ropro.io/getMostPopularToday.php
 https://api.ropro.io/getInvite.php?key={key}
 https://api.ropro.io/createInvite.php?universeid={universeid}&serverid={serverid}
 https://api.ropro.io/getMostPlayedUniverse.php?time={time}
-https://api.ropro.io/freeTrialTime.php
-https://api.ropro.io/getSubscription.php?key={subscriptionkey}&options_page
-https://api.ropro.io/activateKey.php?key={subscriptionkey}
-https://api.ropro.io/getUserInfoTest.php?userid={userid}&myid={myuserid}
-https://api.ropro.io/getEggCollection.php?userid={userid}
 https://api.ropro.io/getDefaultThemes.php
 https://api.ropro.io/getDecalImage.php?id={decalid}
 https://api.ropro.io/getItemSearch.php?q={keyword}
 https://api.ropro.io/getMerch.php
+https://api.ropro.io/recentSales.php?id=
+https://api.ropro.io/additionalItemInfo.php?id={itemid}
+https://api.ropro.io/itemGraph.php
+https://api.ropro.io/itemInfo.php?ids={items)
+
+
+SUBSCRIPTION ENDPOINTS
+
+https://api.ropro.io/freeTrialTime.php
+https://api.ropro.io/getSubscription.php?key={subscriptionkey}&options_page
+https://api.ropro.io/activateKey.php?key={subscriptionkey}
+
+WISHLIST ENDPOINTS
+
+https://api.ropro.io/deleteWish.php?wishid={wishid}
+https://api.ropro.io/postWishlist.php
+https://api.ropro.io/getWishlistAll.php?page={page}
+https://api.ropro.io/getWishlistItem.php?page{page}&item={pageitemid}
+
+SANDBOX ENDPOINTS
+
 https://api.ropro.io/createOutfit.php?userid={userid}&outfitAssets={assets}&outfitName={outfitname}&outfitThumbnail={thumbnail}
 https://api.ropro.io/updateOutfitThumbnail.php?userid={userid}&outfitAssets={assets}&outfitThumbnail={thumbnail}
 https://api.ropro.io/deleteOutfit.php?userid={userid}&outfitAssets={assets}
 https://api.ropro.io/loadOutfits.php?userid={userid}
-https://api.ropro.io/recentSales.php?id=
-https://api.ropro.io/additionalItemInfo.php?id={itemid}
-https://api.ropro.io/itemGraph.php
-https://api.ropro.io/getWishlistItem.php?page{page}&item={pageitemid}
-https://api.ropro.io/itemInfo.php?ids={items)
-https://api.ropro.io/deleteWish.php?wishid={wishid}
-https://api.ropro.io/postWishlist.php
-https://api.ropro.io/getWishlistAll.php?page={page}
 
 ASSET ENDPOINTS
 
@@ -59,6 +67,8 @@ https://api.ropro.io/postReputation.php
 https://api.ropro.io/saveProfileTheme.php?userid={userid}&themename={themename}
 https://api.ropro.io/profileBackend.php?userid={userid}
 https://api.ropro.io/getProfileTheme.php?userid={userid}
+https://api.ropro.io/getUserInfoTest.php?userid={userid}&myid={myuserid}
+https://api.ropro.io/getEggCollection.php?userid={userid}
 
 DISCORD ENDPOINTS
 
