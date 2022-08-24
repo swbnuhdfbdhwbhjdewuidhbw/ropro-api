@@ -1,15 +1,12 @@
 https://api.ropro.io/
 https://api.ropro.io/disabledFeatures.php
-https://api.ropro.io/getAssetThumbnail.php?id={assetid}
 https://api.ropro.io/handleRoProAlert.php?timestamp={timestamp}
 https://api.ropro.io/getSubscription.php?key={subscriptionkey}&userid={userid}
 https://api.ropro.io/validateUser.php?free_trial=true
 https://api.ropro.io/validateUser.php
-https://api.ropro.io/handlePurchase.php?userid={userid}&assetid={assetid}&uaid={userassestid}&price={price}
 https://api.ropro.io/generateVerificationToken.php
 https://api.ropro.io/verificationMetadata.php
 https://api.ropro.io/getAvatarEditorBackgrounds.php
-https://api.ropro.io/getAssetThumbnailUrl.php?id={assetid}
 https://api.ropro.io/getUpcomingPage.php?page={page}
 https://api.ropro.io/getComments.php?id={itemid}&page={page}
 https://api.ropro.io/postComment.php
@@ -38,6 +35,12 @@ https://api.ropro.io/itemInfo.php?ids={items)
 https://api.ropro.io/deleteWish.php?wishid={wishid}
 https://api.ropro.io/postWishlist.php
 https://api.ropro.io/getWishlistAll.php?page={page}
+
+ASSET ENDPOINTS
+
+https://api.ropro.io/getAssetThumbnailUrl.php?id={assetid}
+https://api.ropro.io/handlePurchase.php?userid={userid}&assetid={assetid}&uaid={userassestid}&price={price}
+https://api.ropro.io/getAssetThumbnail.php?id={assetid}
 
 GAME ENDPOINTS
 
